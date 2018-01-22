@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+
+
+html, body{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    height: 100vh;
+    background: #962a17;
+    background: #ac2b14;
+    color: #dbd9d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Share Tech Mono', monospace;
+    transition-duration: 1.5s;
+}
+
+.dark{
+    background: #5c160a;
+    transition-duration: 1.5s;
+}
+
+.wrapper{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+}
+
+.start{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    width: 75px;
+    bottom: 50px;
+    border-radius: 100%;
+    border: 3px solid #6a1f12;
+    color: #6a1f12;
+
+    font-size: 18px;
+    user-select: none;
+}
+
+.start:hover{
+    cursor: pointer;
+    border: 3px solid white;
+    color: white;
+}
+
+h2{
+    position: absolute;
+    top: 50px;
+    color: #6a1f12;
+    font-size: 22px;
+}
+
+.bigtext{
+    font-size: 140px;
+    transition-duration: 1.5s;
+}
+
+h1{ 
+    padding: 0px;
+    margin: 0px;
+    font-size: 100px;
+    font-weight: 100;
+}
+
+h1 span{
+    font-size: 20px;
+    font-weight: 300;
+}
